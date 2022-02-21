@@ -1,3 +1,5 @@
+import styles from "./dashboard.module.css"
+
 const Dashboard = () => {
 
 

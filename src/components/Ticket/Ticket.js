@@ -1,3 +1,6 @@
+import styles from "./ticket.module.css"
+
+
 const Ticket = () => {
 
 
