@@ -1,5 +1,6 @@
 import styles from "./dashboard.module.css"
 import { ticketData } from '../../services/ticketApiService'
+import TicketInfo from '../Ticket/TicketInfo'
 
 
 const Dashboard = () => {
@@ -7,11 +8,18 @@ const Dashboard = () => {
     return (
         <div>
             <div className="tickets">
-                <ul>
                 {ticketData.map(ticket => (
-                    <div key={ticket.id}>{ticket.summary}</div>
+                    <TicketInfo
+                        key={ticket.id}
+                        id={ticket.id}
+                        summary={ticket.summary}
+                        description={ticket.description}
+                        assignee={ticket.assignee}
+                        priority={ticket.priority}
+                        estimate={ticket.estimate}
+                        type={ticket.type}
+                    />
                 ))}
-                </ul>
             </div>
         </div>
     )
