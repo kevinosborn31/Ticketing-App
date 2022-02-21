@@ -36,3 +36,4 @@ export const ticketData = [
         type: 'Bug',
     },
 ]
+
