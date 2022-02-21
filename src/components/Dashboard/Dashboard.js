@@ -1,4 +1,5 @@
 import styles from "./dashboard.module.css"
+import { ticketData } from '../../services/ticketApiService'
 
 const Dashboard = () => {
 

@@ -1,4 +1,4 @@
-const tickets = [
+export const ticketData = [
     {
         id: 1000,
         summary: 'Create table',
