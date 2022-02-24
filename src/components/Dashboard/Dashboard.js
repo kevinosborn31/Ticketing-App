@@ -23,6 +23,8 @@ const Dashboard = () => {
         }
     });
 
+    console.log(tickets);
+
     
 
     return (
