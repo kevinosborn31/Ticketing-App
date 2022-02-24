@@ -11,7 +11,7 @@ const Ticket = ({id, summary, description, assignee, priority, estimate, type}) 
                 <li>{ project }-{ id }</li>
                 <li>{ summary }</li>
                 <li>{ description }</li>
-                <li>Asignee: { assignee }</li>
+                <li>Assignee: { assignee }</li>
                 <li>Priority: { priority }</li>
                 <li>Estimate: { estimate }</li>
                 <li>Type: { type }</li>
